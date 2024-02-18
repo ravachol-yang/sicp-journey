@@ -1,3 +1,4 @@
+#lang sicp
 (define (fib n)
   (fib-iter 1 0 n))
 

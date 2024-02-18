@@ -1,3 +1,4 @@
+#lang sicp
 ;; Search
 
 (define (timed-prime-test n)

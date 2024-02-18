@@ -1,3 +1,4 @@
+#lang sicp
 (define (add-interval x y)
   (make-interval (+ (lower-bound x)
                     (lower-bound y))

@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.32:
 ;; We can represent a set as a list of distinct elements,
 ;; and we can represent the set of all subsets of the set as a list of lists.

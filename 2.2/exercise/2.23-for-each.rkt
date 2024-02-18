@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.23:
 ;; The procedure for-each is similar to map.
 ;; It takes as arguments a procedure and a list of elements.

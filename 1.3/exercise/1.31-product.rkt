@@ -1,3 +1,4 @@
+#lang sicp
 ;; product
 (define (product term a next b)
   (if (> a b)

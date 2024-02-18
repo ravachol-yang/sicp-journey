@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.29:
 ;; A binary mobile consists of two branches, a left branch and a right branch.
 ;; Each branch is a rod of a certain length, from which hangs either a weight or another binary mobile.

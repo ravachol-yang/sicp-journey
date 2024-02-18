@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.26:
 ;; Suppose we define x and y to be two lists:
 

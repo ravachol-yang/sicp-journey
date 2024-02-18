@@ -1,3 +1,4 @@
+#lang sicp
 ;;  In this fraction, the N i are all 1, and the D i are successively 1, 2, 1, 1, 4, 1, 1, 6, 1, 1, 8, ….
 
 (define (cont-frac n d k i)

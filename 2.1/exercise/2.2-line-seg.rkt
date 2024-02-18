@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.2:
 ;; Consider the problem of representing line segments in a plane.
 ;; Each segment is represented as a pair of points: a starting point and an ending point.

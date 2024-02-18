@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.36:
 ;; The procedure accumulate-n is similar to accumulate except that it takes as its third argument a sequence of sequences,
 ;; which are all assumed to have the same number of elements.

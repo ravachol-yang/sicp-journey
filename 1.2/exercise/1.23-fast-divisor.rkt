@@ -1,3 +1,4 @@
+#lang sicp
 ;; prime?
 
 (define (square n)

@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.39:
 ;; Complete the following definitions of reverse (Exercise 2.18) in terms of fold-right and fold-left from Exercise 2.38:
 

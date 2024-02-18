@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 1.43: If f is a numerical function and n is a positive integer, then we can form the n th repeated application of f ,
 ;; which is defined to be the function whose value at x is f ( f ( … ( f ( x ) ) … ) ) .
 ;; For example, if f is the function x ↦ x + 1 , then the n th repeated application of f is the function x ↦ x + n .

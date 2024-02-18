@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.19:
 ;; Consider the change-counting program of 1.2.2.
 ;; It would be nice to be able to easily change the currency used by the program,

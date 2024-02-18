@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.34:
 ;; Fill in the following template to produce a procedure that evaluates a polynomial using Horner’s rule.
 ;; Assume that the coefficients of the polynomial are arranged in a sequence, from a 0 through a n .

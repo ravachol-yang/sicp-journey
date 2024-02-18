@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.30:
 ;; Define a procedure square-tree analogous to the square-list procedure of Exercise 2.21. That is, square-tree should behave as follows:
 ;;

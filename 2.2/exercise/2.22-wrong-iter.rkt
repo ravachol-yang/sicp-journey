@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.22: Louis Reasoner tries to rewrite the first square-list procedure of Exercise 2.21 so that it evolves an iterative process:
 
 (define (square-list items)

@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 1.34: Suppose we define the procedure
 ;;
 ;; (define (f g) (g 2))

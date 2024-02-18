@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 1.44: The idea of smoothing a function is an important concept in signal processing.
 ;; If f is a function and dx is some small number, then the smoothed version of f is the function whose value at a point x is the average of f ( x − d x ) , f ( x ) ,
 ;; and f ( x + d x ) . Write a procedure smooth that takes as input a procedure that computes f and returns a procedure that computes the smoothed f .

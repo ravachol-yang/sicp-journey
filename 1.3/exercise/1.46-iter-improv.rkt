@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 1.46: Several of the numerical methods described in this chapter are instances of an extremely general computational strategy known as iterative improvement.
 ;; Iterative improvement says that, to compute something, we start with an initial guess for the answer, test if the guess is good enough,
 ;; and otherwise improve the guess and continue the process using the improved guess as the new guess.

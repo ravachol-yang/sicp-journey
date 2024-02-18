@@ -1,4 +1,5 @@
 #lang sicp
+#lang sicp
 (define (timed-prime-test n)
         (newline)
         (display n)

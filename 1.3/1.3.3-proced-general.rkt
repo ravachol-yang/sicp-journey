@@ -1,3 +1,4 @@
+#lang sicp
 ;; find root
 (define (search f neg-point pos-point)
   (let ((midpoint

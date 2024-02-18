@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.33:
 ;; Fill in the missing expressions to complete the following definitions of some basic list-manipulation operations as accumulations:
 

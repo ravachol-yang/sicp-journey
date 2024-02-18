@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.38:
 ;; The accumulate procedure is also known as fold-right,
 ;; because it combines the first element of the sequence with the result of combining all the elements to the right.

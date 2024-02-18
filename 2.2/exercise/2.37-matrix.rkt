@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.37:
 ;; Suppose we represent vectors v = ( v i ) as sequences of numbers,
 ;; and matrices m = ( m i j ) as sequences of vectors (the rows of the matrix).

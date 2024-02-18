@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.42:
 ;; The “eight-queens puzzle” asks how to place eight queens on a chessboard
 ;; so that no queen is in check from any other (i.e., no two queens are in the same row, column, or diagonal).

@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.3:
 ;; Implement a representation for rectangles in a plane.
 ;; (Hint: You may want to make use of Exercise 2.2.) In terms of your constructors and selectors,

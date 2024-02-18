@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.35:
 ;; Redefine count-leaves from 2.2.2 as an accumulation:
 

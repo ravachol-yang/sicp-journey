@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.21:
 ;; The procedure square-list takes a list of numbers as argument and returns a list of the squares of those numbers.
 ;;

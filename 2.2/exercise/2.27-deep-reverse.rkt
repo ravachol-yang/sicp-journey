@@ -1,3 +1,4 @@
+#lang sicp
 ;; Exercise 2.27:
 ;; Modify your reverse procedure of Exercise 2.18 to produce a deep-reverse procedure that takes a list
 ;; as argument and returns as its value the list with its elements reversed and with all sublists deep-reversed as well.
