@@ -1,5 +1,6 @@
 #+title: My SICP Journey & Exercises
 #+author: Ravachol <ravachol.yang@gmail.com>
+This repo is about my Journey on the *SICP (Structure and Interpretation of Computer Programs)* and my solution to the exercises in the book
 
 * Preface
 *TODO*
