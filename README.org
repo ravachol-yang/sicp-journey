@@ -32,5 +32,5 @@ raco pkg install --auto data-lib errortrace-lib macro-debugger-text-lib rackunit
 
 * Table of Contents
 1. Building Abstractions with Procedures
-   - 1.1 The Elements of Programming
-     - [[1.1/1.1.7-square-root.rkt][1.1 notes]]
+   - [[1.1][1.1 The Elements of Programming]]
+2. 
