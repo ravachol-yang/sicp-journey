@@ -1,1 +1,0 @@
-# My SICP Journey & Exercises

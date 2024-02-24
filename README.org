@@ -1,0 +1,33 @@
+#+title: My SICP Journey & Exercises
+#+author: Ravachol <ravachol.yang@gmail.com>
+
+* Preface
+*TODO*
+
+* Prerequisites & Environment
+I'm working on archlinux and using the latest version of [[Y][Emacs]] as my editor, so this repo use Org as the language for notes. For Scheme implement, I use the latest version of [[https://racket-lang.org/][Racket]].
+
+** Racket language
+*** Installation:
+as stated in the offical doc [[https://download.racket-lang.org/]] or from your distro package manager.
+*** Usage in SICP learning
+*Racket* provides an [[https://docs.racket-lang.org/sicp-manual/index.html][SICP language package]], install it:
+#+begin_src bash
+raco pkg install sicp
+#+end_src
+use it in .rkt source file
+#+begin_src racket
+#lang sicp
+#+end_src
+
+** Emacs config
+*** My Emacs dot file
+My personal Emacs config [[https://github.com/ravachol-yang/emacs.d]], forked from [[https://github.com/purcell/emacs.d][purcell/emacs.d]].
+*** Racket specific support
+Use [[https://www.racket-mode.com/][Racket Mode]] as Racket language support, which provides an Racket REPL and Racket syntax analysis.
+To enable some advanced support, install these extra racket packages as stated in the *Racket Mode* offical docs:
+#+begin_src bash
+raco pkg install --auto data-lib errortrace-lib macro-debugger-text-lib rackunit-lib racket-index scribble-lib drracket-tool-text-lib
+#+end_src
+
+* Table of Contents
