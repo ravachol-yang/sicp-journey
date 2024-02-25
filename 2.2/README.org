@@ -1,8 +1,12 @@
 #+title: 2.2 Hierarchical Data and the Closure Property
 #+author: Ravachol <ravachol.yang@gmail.com>
 
-# Notes
-[[notes][2.2 notes]]
-
-# Excercises
-[[exercises][2.2 ex]]
+* Notes
+[[notes/2.2.1.org][2.2.1 notes]]
+[[notes/2.2.2.org][2.2.2 notes]]
+[[notes/2.2.3.org][2.2.3 notes]]
+* Excercises
+- *2.2.1 Representing Sequences*
+  - [[exercises/2.17.rkt][ex2.17]], [[exercises/2.18.rkt][ex2.18]], [[exercises/2.19.rkt][ex2.19]],
+- *2.2.2 Hierarchical Structures*
+- *2.2.3 Sequences as Conventional Interfaces*
