@@ -1,0 +1,8 @@
+#+title: 2.2 Hierarchical Data and the Closure Property
+#+author: Ravachol <ravachol.yang@gmail.com>
+
+# Notes
+[[notes][2.2 notes]]
+
+# Excercises
+[[exercises][2.2 ex]]
