@@ -12,3 +12,4 @@
 - *2.2.2 Hierarchical Structures*
   - [[exercises/2.24.rkt][ex2.24]], [[exercises/2.25.rkt][ex2.25]], [[exercises/2.26.rkt][ex2.25]], [[exercises/2.26.rkt][ex2.26]], [[exercises/2.27.rkt][ex2.27]], [[exercises/2.28.rkt][ex2.28]], [[exercises/2.29.rkt][ex2.29]], [[exercises/2.30.rkt][ex2.30]], [[exercises/2.31.rkt][ex2.31]], [[exercises/2.32.rkt][ex2.32]]
 - *2.2.3 Sequences as Conventional Interfaces*
+  - [[exercises/2.33.rkt][ex2.33]], [[exercises/2.34.rkt][ex2.34]], [[exercises/2.35.rkt][ex2.35]], [[exercises/2.36.rkt][ex2.36]], [[exercises/2.37.rkt][ex2.37]], [[exercises/2.38.rkt][ex2.38]], [[exercises/2.39.rkt][ex2.39]], [[exercises/2.40.rkt][ex2.40]], [[exercises/2.41.rkt][ex2.41]], [[exercises/2.42.rkt][ex2.42]]
