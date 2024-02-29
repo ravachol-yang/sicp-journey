@@ -5,7 +5,8 @@
 - [[notes/2.2.1.org][2.2.1 notes]]
 - [[notes/2.2.2.org][2.2.2 notes]]
 - [[notes/2.2.3.org][2.2.3 notes]]
-
+- [[notes/2.2.4.org][2.2.4 notes]]
+  
 * Excercises
 - *2.2.1 Representing Sequences*
   - [[exercises/2.17.rkt][ex2.17]], [[exercises/2.18.rkt][ex2.18]], [[exercises/2.19.rkt][ex2.19]], [[exercises/2.20.rkt][ex2.20]], [[exercises/2.21.rkt][ex2.21]], [[exercises/2.22.rkt][ex2.22]], [[exercises/2.23.rkt][ex2.23]]
