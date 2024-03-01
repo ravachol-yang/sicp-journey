@@ -7,7 +7,7 @@ This repo is about my Journey on the *SICP (Structure and Interpretation of Comp
 [[./assets/sicp-emacs.png]]
 
 * Prerequisites & Environment
-I'm working on archlinux and using the latest version of [[Y][Emacs]] as my editor, so this repo use Org as the language for notes. For Scheme implement, I use the latest version of [[https://racket-lang.org/][Racket]].
+I'm working on archlinux and using the latest version of [[https://www.gnu.org/software/emacs/][Emacs]] as my editor, so this repo use Org as the language for notes. For Scheme implement, I use the latest version of [[https://racket-lang.org/][Racket]].
 
 ** Racket language
 *** Installation:
