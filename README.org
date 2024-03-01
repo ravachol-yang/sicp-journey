@@ -3,7 +3,8 @@
 This repo is about my Journey on the *SICP (Structure and Interpretation of Computer Programs)* and my solution to the exercises in the book
 
 * Preface
-./assets/sicp-emacs.png
+#+caption: Hermes Trismegistus, Emacs & SICP
+[[./assets/sicp-emacs.png]]
 
 * Prerequisites & Environment
 I'm working on archlinux and using the latest version of [[Y][Emacs]] as my editor, so this repo use Org as the language for notes. For Scheme implement, I use the latest version of [[https://racket-lang.org/][Racket]].
