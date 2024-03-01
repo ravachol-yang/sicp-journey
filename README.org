@@ -44,6 +44,6 @@ raco pkg install --auto data-lib errortrace-lib macro-debugger-text-lib rackunit
 * My Voyage
 *TODO*
 * LICENSE
-Do What The Fuck To The Public License:
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE:
 
 [[http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png]]
