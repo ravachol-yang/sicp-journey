@@ -4,6 +4,7 @@ This repo is about my Journey on the *SICP (Structure and Interpretation of Comp
 
 * Preface
 #+caption: Hermes Trismegistus, Emacs & SICP
+#+name: Hermes Trismegistus, Emacs & SICP
 [[./assets/sicp-emacs.png]]
 
 * Prerequisites & Environment
