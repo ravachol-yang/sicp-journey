@@ -15,18 +15,17 @@
 (define (ycor-vect v)
   (cdr v))
 
-(define (2vect v1 v2)
-  (lambda (op)
-    (make-vect (op (xcor-vect v1)
-                   (xcor-vect v2))
-               (op (ycor-vect v1)
-                   (ycor-vect v2)))))
+(define (2vect v1 v2 op)
+  (make-vect (op (xcor-vect v1)
+                 (xcor-vect v2))
+             (op (ycor-vect v1)
+                 (ycor-vect v2))))
 
 (define (add-vect v1 v2)
-  ((2vect v1 v2) +))
+  (2vect v1 v2 +))
 
 (define (sub-vect v1 v2)
-  ((2vect v1 v2) -))
+  (2vect v1 v2 -))
 
 (define (scale-vect v scalar)
   (make-vect (* scalar (xcor-vect v))
