@@ -92,3 +92,23 @@ and square-limit can be expressed as:
                          flip-vert)))
     (combine4 (corner-split painter n))))
 #+end_src
+
+* Frames
+Origin(Frame) + x ⋅ Edge 1 (Frame) + y ⋅ Edge 2 (Frame) .
+#+begin_src racket
+(define (frame-coord-map frame)
+  (lambda (v)
+    (add-vect
+     (origin-frame frame)
+     (add-vect 
+      (scale-vect (xcor-vect v)
+                  (edge1-frame frame))
+      (scale-vect (ycor-vect v)
+                  (edge2-frame frame))))))
+#+end_src
+Observe that applying frame-coord-map to a frame returns a procedure that, given a vector, returns a vector.
+If the argument vector is in the unit square, the result vector will be in the frame. For example,
+#+begin_src racket
+((frame-coord-map a-frame) (make-vect 0 0))
+(origin-frame a-frame)
+#+end_src
