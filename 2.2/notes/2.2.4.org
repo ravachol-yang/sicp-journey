@@ -60,3 +60,35 @@ whose application to wave and rogers is shown in Figure 2.9:
                         quarter)))
       (below (flip-vert half) half))))
 #+end_src
+
+* Higher-order operations
+abstract square
+#+begin_src racket
+(define (square-of-four tl tr bl br)
+  (lambda (painter)
+    (let ((top (beside (tl painter) 
+                       (tr painter)))
+          (bottom (beside (bl painter) 
+                          (br painter))))
+      (below bottom top))))
+#+end_src
+Then flipped-pairs can be defined in terms of square-of-four as follows:
+#+begin_src racket
+(define (flipped-pairs painter)
+  (let ((combine4 
+         (square-of-four identity 
+                         flip-vert
+                         identity 
+                         flip-vert)))
+    (combine4 painter)))
+#+end_src
+and square-limit can be expressed as:
+#+begin_src racket
+(define (square-limit painter n)
+  (let ((combine4 
+         (square-of-four flip-horiz 
+                         identity
+                         rotate180 
+                         flip-vert)))
+    (combine4 (corner-split painter n))))
+#+end_src
