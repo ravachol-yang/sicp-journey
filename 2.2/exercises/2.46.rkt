@@ -28,7 +28,7 @@
 (define (sub-vect v1 v2)
   ((2vect v1 v2) -))
 
-(define (mult-vect v scalar)
+(define (scale-vect v scalar)
   (make-vect (* scalar (xcor-vect v))
              (* scalar (ycor-vect v))))
 
