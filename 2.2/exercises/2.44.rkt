@@ -19,8 +19,8 @@
       painter
       (let ((smaller (up-split painter
                                (- n 1))))
-        (below (beside smaller smaller)
-               painter))))
+        (below painter
+               (beside smaller smaller)))))
 
 ;; corner split
 (define (corner-split painter n)
