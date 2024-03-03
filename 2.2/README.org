@@ -15,4 +15,4 @@
 - *2.2.3 Sequences as Conventional Interfaces*
   - [[exercises/2.33.rkt][ex2.33]], [[exercises/2.34.rkt][ex2.34]], [[exercises/2.35.rkt][ex2.35]], [[exercises/2.36.rkt][ex2.36]], [[exercises/2.37.rkt][ex2.37]], [[exercises/2.38.rkt][ex2.38]], [[exercises/2.39.rkt][ex2.39]], [[exercises/2.40.rkt][ex2.40]], [[exercises/2.41.rkt][ex2.41]], [[exercises/2.42.rkt][ex2.42]]
 - *2.2.4Example: A Picture Language*
-  - [[exercises/2.44.rkt][ex2.44]], [[exercises/2.45.rkt][ex2.45]], [[exercises/2.46.rkt][ex2.46]], [[exercises/2.47.rkt][ex2.47]], [[exercises/2.48.rkt][ex2.48]], [[exercises/2.49.rkt][ex2.49]], [[exercises/2.50.rkt][ex2.50]], [[exercises/2.51.rkt][ex2.51]]
+  - [[exercises/2.44.rkt][ex2.44]], [[exercises/2.45.rkt][ex2.45]], [[exercises/2.46.rkt][ex2.46]], [[exercises/2.47.rkt][ex2.47]], [[exercises/2.48.rkt][ex2.48]], [[exercises/2.49.rkt][ex2.49]], [[exercises/2.50.rkt][ex2.50]], [[exercises/2.51.rkt][ex2.51]], [[exercises/2.52.rkt][ex2.52]]
