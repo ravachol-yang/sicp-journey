@@ -1,1 +1,9 @@
- 
+#+title: 2.3 Symbolic Data
+#+author: Ravachol <ravachol.yang@gmail.com>
+
+* Notes
+- [[notes/2.3.1.org][2.3.1 notes]]
+
+* Exercises
+- *2.3.1 Quotation*
+  - [[exercises/2.53.rkt][ex2.53]]
