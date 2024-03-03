@@ -127,3 +127,27 @@ segments->painter
          (end-segment segment))))
      segment-list)))
 #+end_src
+
+Transform painter
+#+begin_src racket
+(define (transform-painter 
+         painter origin corner1 corner2)
+  (lambda (frame)
+    (let ((m (frame-coord-map frame)))
+      (let ((new-origin (m origin)))
+        (painter (make-frame new-origin
+                  (sub-vect (m corner1) 
+                            new-origin)
+                  (sub-vect (m corner2)
+                            new-origin)))))))
+#+end_src
+
+Here’s how to flip painter images vertically: 
+#+begin_src racket
+(define (flip-vert painter)
+  (transform-painter 
+   painter
+   (make-vect 0.0 1.0)   ; new origin
+   (make-vect 1.0 1.0)   ; new end of edge1
+   (make-vect 0.0 0.0))) ; new end of edge2
+#+end_src
