@@ -6,4 +6,4 @@
 
 * Exercises
 - *2.3.1 Quotation*
-  - [[exercises/2.53.rkt][ex2.53]]
+  - [[exercises/2.53.rkt][ex2.53]], [[exercises/2.54.rkt][ex2.54]]
