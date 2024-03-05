@@ -7,4 +7,4 @@
 
 * Exercises
 - *2.3.1 Quotation*
-  - [[exercises/2.53.rkt][ex2.53]], [[exercises/2.54.rkt][ex2.54]], [[exercises/2.55.rkt][ex2.55]], [[exercises/2.56.rkt][ex2.56]], [[exercises/2.57.rkt][ex2.57]], [[exercises/2.58.rkt][ex2.58]], [[exercises/2.59.rkt][ex2.59]], [[exercises/2.60.rkt][ex2.60]], [[exercises/2.61.rkt][ex2.61]]
+  - [[exercises/2.53.rkt][ex2.53]], [[exercises/2.54.rkt][ex2.54]], [[exercises/2.55.rkt][ex2.55]], [[exercises/2.56.rkt][ex2.56]], [[exercises/2.57.rkt][ex2.57]], [[exercises/2.58.rkt][ex2.58]], [[exercises/2.59.rkt][ex2.59]], [[exercises/2.60.rkt][ex2.60]], [[exercises/2.61.rkt][ex2.61]], [[exercises/2.62.rkt][ex2.62]]
