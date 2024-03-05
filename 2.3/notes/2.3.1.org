@@ -1,2 +1,25 @@
 #+title: 2.3.1 Quotation
 #+author: Ravachol <ravachol.yang@gmail.com>
+
+One additional primitive used in manipulating symbols is eq?, which takes two symbols as arguments and tests whether they are the same.101 Using eq?, we can implement a useful procedure called memq. This takes two arguments, a symbol and a list. If the symbol is not contained in the list (i.e., is not eq? to any item in the list), then memq returns false. Otherwise, it returns the sublist of the list beginning with the first occurrence of the symbol:
+
+#+begin_src racket
+(define (memq item x)
+  (cond ((null? x) false)
+        ((eq? item (car x)) x)
+        (else (memq item (cdr x)))))
+#+end_src
+	
+For example, the value of
+
+#+begin_src racket
+(memq 'apple '(pear banana prune))
+#+end_src
+
+is false, whereas the value of
+
+#+begin_src racket
+(memq 'apple '(x (apple sauce) y apple pear))
+#+end_src
+
+is (apple pear). 
