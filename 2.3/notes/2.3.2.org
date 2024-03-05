@@ -1,0 +1,47 @@
+#+title: 2.3.2 Example: Symbolic Differentiation
+#+author: Ravachol <ravachol.yang@gmail.com>
+
+* The differentiation program with abstract data
+
+#+begin_quote
+Observe that the latter two rules are recursive in nature. That is, to obtain the derivative of a sum we first find the derivatives of the terms and add them. Each of the terms may in turn be an expression that needs to be decomposed. Decomposing into smaller and smaller pieces will eventually produce pieces that are either constants or variables, whose derivatives will be either 0 or 1.
+#+end_quote
+
+The code:
+#+begin_src racket
+(define (deriv exp var)
+  (cond ((number? exp) 0)
+        ((variable? exp)
+         (if (same-variable? exp var) 1 0))
+        ((sum? exp)
+         (make-sum (deriv (addend exp) var)
+                   (deriv (augend exp) var)))
+        ((product? exp)
+         (make-sum
+          (make-product 
+           (multiplier exp)
+           (deriv (multiplicand exp) var))
+          (make-product 
+           (deriv (multiplier exp) var)
+           (multiplicand exp))))
+        (else (error "unknown expression 
+                      type: DERIV" exp))))
+#+end_src
+
+* Representing algebraic expressions
+The variables are symbols. They are identified by the primitive predicate symbol?:
+#+begin_src racket
+(define (variable? x) (symbol? x))
+#+end_src
+Two variables are the same if the symbols representing them are eq?:
+#+begin_src racket
+(define (same-variable? v1 v2)
+  (and (variable? v1)
+       (variable? v2)
+       (eq? v1 v2)))
+#+end_src
+Sums and products are constructed as lists:
+#+begin_src racket
+(define (make-sum a1 a2) (list '+ a1 a2))
+(define (make-product m1 m2) (list '* m1 m2))
+#+end_src
