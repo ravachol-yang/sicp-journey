@@ -1,8 +1,63 @@
 #+title: 2.3.3 Example: Representing Sets
 #+author: Ravachol <ravachol.yang@gmail.com>
 
-* Sets as unordered lists
-
 * Sets as ordered lists
 
+#+begin_src racket
+  (define (element-of-set? x set)
+    (cond ((null? set) false)
+	  ((= x (car set)) true)
+	  ((< x (car set)) false)
+	  (else (element-of-set? x (cdr set)))))
+
+  (define (intersection-set set1 set2)
+  (if (or (null? set1) (null? set2))
+      '()
+      (let ((x1 (car set1)) (x2 (car set2)))
+        (cond ((= x1 x2)
+               (cons x1 (intersection-set 
+                         (cdr set1)
+                         (cdr set2))))
+              ((< x1 x2) (intersection-set 
+                          (cdr set1) 
+                          set2))
+              ((< x2 x1) (intersection-set 
+                          set1 
+                          (cdr set2)))))))
+#+end_src 
+
 * Sets as binary trees
+
+#+begin_src racket
+  (define (entry tree) (car tree))
+  (define (left-branch tree) (cadr tree))
+  (define (right-branch tree) (caddr tree))
+  (define (make-tree entry left right)
+    (list entry left right))
+
+  
+
+(define (element-of-set? x set)
+  (cond ((null? set) false)
+        ((= x (entry set)) true)
+        ((< x (entry set))
+         (element-of-set? 
+          x 
+          (left-branch set)))
+        ((> x (entry set))
+         (element-of-set? 
+          x 
+          (right-branch set)))))
+#+end_src
+
+* Sets and information retrieval
+#+begin_src racket
+  (define (lookup given-key set-of-records)
+  (cond ((null? set-of-records) false)
+        ((equal? given-key 
+                 (key (car set-of-records)))
+         (car set-of-records))
+        (else 
+         (lookup given-key 
+                 (cdr set-of-records)))))
+#+end_src
