@@ -1,0 +1,8 @@
+#+title: 2.3.3 Example: Representing Sets
+#+author: Ravachol <ravachol.yang@gmail.com>
+
+* Sets as unordered lists
+
+* Sets as ordered lists
+
+* Sets as binary trees
