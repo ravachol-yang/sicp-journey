@@ -78,4 +78,5 @@
               SHA NA NA NA NA NA NA NA NA
               WAH YIP YIP YIP YIP
               YIP YIP YIP YIP YIP
-              SHA BOOM))
+              SHA BOOM)
+        lyrics-tree)
