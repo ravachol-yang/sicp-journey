@@ -56,9 +56,15 @@
   (successive-merge 
    (make-leaf-set pairs)))
 
-;; TODO
-(define (encode-symbol symb tree)
-  (+))
+ (define (encode-symbol sym tree) 
+   (if (leaf? tree) 
+       (if (eq? sym (symbol-leaf tree)) 
+           '() 
+           (error "SHIT !" sym)) 
+       (let ((left (left-branch tree))) 
+         (if (memq sym (symbols left)) 
+             (cons 0 (encode-symbol sym left)) 
+             (cons 1 (encode-symbol sym (right-branch tree))))))) 
 
 (define (encode message tree)
   (if (null? message)
