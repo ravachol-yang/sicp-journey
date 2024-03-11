@@ -52,7 +52,12 @@
          (make-leaf-set (cdr pairs))))))
 
 (define (successive-merge pairs)
-  (+))
+  (if (= (length pairs) 1) 
+      (car pairs)
+      (successive-merge 
+       (adjoin-set (make-code-tree (car pairs) 
+                                        (cadr pairs))
+                        (cddr pairs)))))
 
 (define (generate-huffman-tree pairs)
   (successive-merge 
