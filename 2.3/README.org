@@ -15,4 +15,4 @@
 - *2.3.3 Example: Representing Sets*
   - [[exercises/2.59.rkt][ex2.59]], [[exercises/2.60.rkt][ex2.60]], [[exercises/2.61.rkt][ex2.61]], [[exercises/2.62.rkt][ex2.62]], [[exercises/2.63.rkt][ex2.63]], [[exercises/2.64.rkt][ex2.64]], [[exercises/2.65.rkt][ex2.65]], [[exercises/2.66.rkt][ex2.66]]
 - *2.3.4 Example: Huffman Encoding Trees*
-  - [[exercises/2.67.rkt][ex2.67]], [[exercises/2.68.rkt][ex2.68]], [[exercises/2.69.rkt][ex2.69]], [[exercises/2.70.rkt][ex2.70]], [[exercises/2.71.rkt][ex2.71]]
+  - [[exercises/2.67.rkt][ex2.67]], [[exercises/2.68.rkt][ex2.68]], [[exercises/2.69.rkt][ex2.69]], [[exercises/2.70.rkt][ex2.70]], [[exercises/2.71.rkt][ex2.71]], [[exercises/2.72.rkt][ex2.72]]
