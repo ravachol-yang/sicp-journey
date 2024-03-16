@@ -3,5 +3,6 @@
 
 * Notes
 - [[notes/2.4.1.org][2.4.1 notes]]
-
+- [[notes/2.4.2.org][2.4.2 notes]]
+  
 * Exercises
