@@ -37,38 +37,27 @@
              (let ((record (assoc key-2 (cdr subtable)))) 
                  (if record 
                      (cdr record) 
-                     #f 
-                 ) 
-             ) 
-             #f 
-         ) 
-     ) 
- ) 
- (define (insert2! key-1 key-2 value table) 
-     (let ((subtable (assoc key-1 (cdr table)))) 
-         (if subtable 
-             ; subtable exist 
-             (let ((record (assoc key-2 (cdr subtable)))) 
-                 (if record 
-                     (set-cdr! record value) ; modify record 
-                     (set-cdr! subtable 
-                               (cons (cons key-2 value) (cdr subtable))) ; add record 
-                 ) 
-             ) 
-             ; subtable doesn't exist, insert a subtable 
-             (set-cdr! table 
-                       (cons (list key-1 (cons key-2 value)) ; inner subtable 
-                             (cdr table)) 
-             ) 
-         ) 
-     ) 
- ) 
+                     #f)) 
+             #f)))
+
+(define (insert2! key-1 key-2 value table) 
+  (let ((subtable (assoc key-1 (cdr table)))) 
+    (if subtable 
+        ; subtable exist 
+        (let ((record (assoc key-2 (cdr subtable)))) 
+          (if record 
+              (set-cdr! record value) ; modify record
+              ; add record 
+              (set-cdr! subtable 
+                        (cons (cons key-2 value) (cdr subtable))))) 
+        ; subtable doesn't exist, insert a subtable 
+        (set-cdr! table 
+                  (cons (list key-1 (cons key-2 value)) ; inner subtable 
+                        (cdr table)))))) 
   
  ; put and get 
  (define *table* (make-table)) ; a global table 
  (define (put op type item) 
-     (insert2! op type item *table*) 
- ) 
+     (insert2! op type item *table*)) 
  (define (get op type) 
-     (lookup2 op type *table*) 
- ) 
+     (lookup2 op type *table*)) 
